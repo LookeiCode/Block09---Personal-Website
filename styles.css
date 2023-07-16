@@ -1,0 +1,42 @@
+#nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    height: 3rem;
+    text-align: center;
+    position: relative;
+}
+#nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+#nav a:hover {
+    color: navy;
+    background-color: rgb(209, 209, 209);
+    border: solid;
+    border-color: black;
+    padding-top: 12px;
+    font-size: 20px;
+}
+#nav :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 100px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+#nav :nth-child(2) {
+    position: absolute;
+    border: solid;
+    border-color: rgb(209, 209, 209);
+    border-width: 5px;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 40px;
+}
