@@ -6,7 +6,11 @@
     margin: 0;
     height: 3rem;
     text-align: center;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 5px rgb(209, 209, 209);
 }
 #nav a {
     text-decoration: none;
@@ -28,7 +32,7 @@
     left: 0;
     padding-left: 100px;
     font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 #nav :nth-child(2) {
     position: absolute;
@@ -39,4 +43,13 @@
     left: 0;
     width: 70px;
     height: 40px;
+}
+.maindiv {
+    background-color: rgb(84, 84, 84);
+    margin-right: 160px;
+    margin-left: 160px;
+    box-shadow: 0px 1px 25px -3px rgb(209, 209, 209);
+}
+body {
+    background-color: rgb(46, 46, 46);
 }
