@@ -162,15 +162,13 @@ main {
 }
 .HomeIntro h1 {
     text-align: center;
-    position: relative;
-    right: 50px;
+    padding-right: 115px;
     color: rgb(209, 209, 209);
     text-shadow: 0px 3px 10px black;
 }
 .HomeIntroTwo h1 {
     text-align: center;
-    position: relative;
-    right: 50px;
+    padding-right: 115px;
     color: rgb(209, 209, 209);
     text-shadow: 0px 3px 10px black;
 }
@@ -186,11 +184,11 @@ main {
     box-shadow: 7px 15px 20px rgb(46, 46, 46)
 }
 .footerOne {
+    position: absolute;
     color: white;
     background-color: black;
     width: 86.5rem;
     margin: 0;
-    padding-bottom: 80px;
     border: 1px solid;
     box-shadow: 0px 0px 15px rgb(209, 209, 209);
 }
@@ -199,7 +197,7 @@ main {
     background-color: rgb(209, 209, 209);
     border: solid;
     border-color: black;
-    font-size: 20px;
+    font-size: 30px;
 }
 .footerOne .footerDivOne a {
     text-decoration: none;
@@ -208,13 +206,15 @@ main {
     font-size: 30px;
 }
 .footerDivOne {
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: 100px;
+    top: 50px;
     position: relative;
 }
 .squares {
-    margin-left: 220px;
+    margin-left: 320px;
     margin-top: -100px;
+    position: relative;
+    bottom: 70px;
 }
 .squareComplete{
     padding: 10px 17px 10px 17px;
@@ -236,4 +236,15 @@ main {
 }
 .squares span {
     margin-left: 10px;
+}
+#doubleNumSquare {
+    padding: 10px 12px 10px 12px;
+}
+.squareHeaderPar {
+    padding-left: 450px;
+    padding-top: 25px;
+}
+.squareHeader {
+    position: relative;
+    bottom: 200px;
 }
