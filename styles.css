@@ -50,12 +50,6 @@
     margin-left: 160px;
     box-shadow: 0px 1px 25px -3px rgb(209, 209, 209);
 }
-.aboutdiv {
-    background-color: rgba(88, 113, 140, 0.66);
-    margin-right: 160px;
-    margin-left: 160px;
-    box-shadow: 0px 1px 25px -3px rgb(209, 209, 209);
-}
 body {
     background-color: rgb(46, 46, 46);
 }
@@ -152,8 +146,6 @@ main {
     border: 1px solid;
     border-radius: 25px;
     box-shadow: 7px 15px 20px rgb(46, 46, 46)
-    
-    
 }
 .HomeIntroP {
     font-family: 'Raleway', sans-serif;
@@ -270,4 +262,97 @@ main {
 }
 .navSocialSquare img:hover {
     box-shadow: 0px 0px 5px 3px rgb(209, 209, 209);
+}
+
+/* ABOUT PAGE STYLING ********************************************** */
+
+.aboutdiv {
+    background-color: rgba(88, 113, 140, 0.66);
+    margin-right: 160px;
+    margin-left: 160px;
+    box-shadow: 0px 1px 25px -3px rgb(209, 209, 209);
+}
+.mainHeadAbout {
+    text-align: center; 
+    text-shadow: 0px 3px 10px black;
+    left: 0;
+    font-size: 2.5rem;
+    padding-top: 50px;
+}
+.DoverImage {
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    float: left;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 7px 15px 15px rgb(46, 46, 46)
+}
+.BTCImage {
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    float: right;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 7px 15px 15px rgb(46, 46, 46)
+}
+.BooksImage {
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    float: left;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 7px 15px 15px rgb(46, 46, 46)
+}
+.AboutSectionOne h1 {
+    margin-left: 15px;
+    padding-right: 115px;
+    font-size: 28px;
+    color: rgb(209, 209, 209);
+    text-shadow: 0px 3px 1px black;
+}
+.AboutSectionTwo h1 {
+    margin-left: 15px;
+    padding-right: 115px;
+    font-size: 28px;
+    color: rgb(209, 209, 209);
+    text-shadow: 0px 3px 1px black;
+}
+.AboutSectionThree h1 {
+    margin-left: 15px;
+    padding-right: 115px;
+    font-size: 28px;
+    color: rgb(209, 209, 209);
+    text-shadow: 0px 3px 1px black;
+}
+.aboutP {
+    margin-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+/* PORTFOLIO PAGE STYLING ********************************************** */
+
+.portfolioDiv {
+    background-color: rgba(88, 140, 94, 0.66);
+    margin-right: 160px;
+    margin-left: 160px;
+    box-shadow: 0px 1px 25px -3px rgb(209, 209, 209);
+}
+
+.mainHeadPortfolio {
+    text-align: center; 
+    text-shadow: 0px 3px 10px black;
+    left: 0;
+    font-size: 2.5rem;
+    padding-top: 50px;
 }
