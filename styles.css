@@ -356,3 +356,89 @@ main {
     font-size: 2.5rem;
     padding-top: 50px;
 }
+.portSectionOne {
+    background-color: white;
+    margin-left: 135px;
+    width: 800px;
+    box-shadow: 0 3px 6px -2px black;
+}
+.portSectionTwo {
+    background-color: white;
+    margin-left: 135px;
+    width: 800px;
+    box-shadow: 0 3px 6px -2px black;
+}
+.portSectionThree {
+    background-color: white;
+    margin-left: 135px;
+    width: 800px;
+    box-shadow: 0 3px 6px -2px black;
+}
+.portSectionOne h1 {
+    padding-top: 10px;
+    padding-left: 2px;
+    margin-left: 15px;
+    padding-right: 115px;
+    font-size: 28px;
+    margin-bottom: 0px;
+    color: black;
+}
+.portSectionTwo h1 {
+    padding-top: 10px;
+    padding-left: 2px;
+    margin-left: 15px;
+    padding-right: 115px;
+    font-size: 28px;
+    margin-bottom: 0px;
+    color: black;
+}
+.portSectionThree h1 {
+    padding-top: 10px;
+    padding-left: 2px;
+    margin-left: 15px;
+    padding-right: 115px;
+    font-size: 28px;
+    margin-bottom: 0px;
+    color: black;
+}
+.portHR {
+    margin-top: 5px;
+}
+.picassoPic {
+    width: 170px;
+    height: 180px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    float: right;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 7px 15px 15px rgb(46, 46, 46)
+}
+.spotifyPic {
+    width: 170px;
+    height: 180px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    float: right;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 7px 15px 15px rgb(46, 46, 46)
+}
+.VMPic {
+    width: 170px;
+    height: 180px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    float: right;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 7px 15px 15px rgb(46, 46, 46)
+}
+.portP {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+}
