@@ -63,6 +63,10 @@ main {
     padding-left: 20px;
     color: rgb(209, 209, 209);
 }
+header {
+    padding-left: 20px;
+    color: rgb(209, 209, 209);
+}
 .mainhead {
     text-align: center; 
     text-shadow: 0px 3px 10px black;
@@ -445,8 +449,60 @@ main {
 
 /* CONTACT PAGE STYLING ********************************************** */
 
-.formSubDiv {
+.contactDiv {
+    background-color: rgb(84, 84, 84);
+    margin-right: 160px;
+    margin-left: 160px;
+    box-shadow: 0px 1px 25px -3px rgb(209, 209, 209);
     text-align: center;
 }
 
+.mainHeadContact {
+        text-align: center; 
+        text-shadow: 0px 3px 10px black;
+        left: 0;
+        font-size: 2.5rem;
+        padding-top: 50px;
+}
+.formStyle {
+    color: rgb(209, 209, 209);
+}
+form {
+    display: inline-block;
+    border: 1px solid;
+    width: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 25px;
+    box-shadow: 7px 15px 15px rgb(46, 46, 46)
+}
+
+#submit {
+    text-align: center;
+    width: 200px;
+    padding-left: -20px;
+    box-shadow: 0 3px 6px -2px black;
+}
+
+label {
+    padding-left: 30px;
+}
+
+input {
+    margin-left: 30px;
+    width: 250px;
+}
+textarea {
+    margin-left: 30px;
+    width: 250px;
+}
+.formStyle p {
+    font-size: larger;
+    font-weight: bold;
+}
+
 /* FORM SUBMIT PAGE STYLING ********************************************** */
+
+.formSubDiv {
+    text-align: center;
+}
