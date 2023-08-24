@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Contact Me</title>
+    <title>Contact Page</title>
     <link rel="stylesheet" href="/styles.css"></link>
 </head>
 
@@ -28,29 +28,37 @@
 
     <div class="contactDiv">
 
-    <main>
+        <header>
+            <h1 class="mainHeadContact">Contact Page</h1>
+        </header>
+
+        <hr id="SectionHR">
+
+    <section class="formStyle">
+
+        <p>Write me a message and I'll get back to you as soon as possible!</p>
+
         <form action="formSubmit.html">
 
-            <h3 style="text-decoration: underline; text-align: center;">Please fill out the form below</h3>
+            <h3 style="text-decoration: underline; text-align: center; color: white; margin-left: 30px;">Please fill out the form below</h3>
     
             <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname"><br><br>
+            <input type="text" id="fname" name="fname" style="box-shadow: 0 3px 6px -2px black;"><br><br>
     
             <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
+            <input type="text" id="lname" name="lname" style="box-shadow: 0 3px 6px -2px black;"><br><br>
     
             <label for="email">Email:</label>
-            <input type="text" id="email" name="email"><br><br>
-    
-            <div id="submit">
-            <input type="submit" value="Submit" style="height:50px; width:150px">
-            </div><br>
+            <input type="text" id="email" name="email" style="box-shadow: 0 3px 6px -2px black;"><br><br>
+
+            <label for="message">Message:</label>
+            <textarea class="longInput" cols="30" rows="10"  style="box-shadow: 0 3px 6px -2px black; height: 100px;"></textarea><br><br> 
+
+            <input type="submit" value="Submit" id ="submit" style="height:50px; width:150px">
+            <br><br>
         </form>
-    </main>
-
-    <form>
-
-    </form>
+    </section>
+    <br><br>
         
     </div>
 
